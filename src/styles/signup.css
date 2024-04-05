@@ -19,10 +19,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Nunito",sans-serif;
 }
 
 body {
-    font-family: monospace;
+    font-family: "Nunito",sans-serif;
     margin: 0;
     padding: 0;
     background-color: #BF2C38;
