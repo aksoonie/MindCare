@@ -8,7 +8,7 @@
     <link rel="icon" href="assets/icon.ico" type="image/x-icon">
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
@@ -18,13 +18,14 @@
 
 <body>
 
-        <input type="checkbox" id="check">
+    <input type="checkbox" id="check">
     <header class="navbar-container">
         <div class="logo">
             <img src="assets/logoCeleste.png" alt="company logo">
         </div>
         <nav class="navbar-list">
             <a href="#home" class="navbar-link">Inicio</a>
+            <a href="#servicios" class="navbar-link">Servicios</a>
             <a href="#about" class="navbar-link">Nosotros</a>
             <a href="#price" class="navbar-link">Planes</a>
             <a href="#contact" class="navbar-link">Contacto</a>
@@ -36,7 +37,7 @@
             <i class="fa-solid fa-xmark"></i>
         </label>
     </header>
-    
+
     <section class="home" id="home">
         <div class="hom-container">
             <h2>Encuentra claridad<br> <span>descubre tu fuerza interior</span></h2>
@@ -46,83 +47,23 @@
                 un camino hacia la sanación, el crecimiento personal y una vida más plena y satisfactoria.</p>
         </div>
     </section>
+    <section class="servicios" id="servicios">
+        <h2 class="title-section">¿Por qué atenderse en MindCare?</h2>
+       
+    </section>
     <section class="about" id="about">
-        <div class="about-container">
-            <h2 class="title-section">Acerca de nosotros</h2>
-            <br><br><br>
-            <div class="box-group">
-                <p class="text-about">
-                    <b>CodePace</b> es mucho más que una plataforma; es tu compañero en el apasionante viaje hacia el
-                    éxito en el mundo de la tecnología. Nos enorgullecemos de ser pioneros en la preparación de
-                    programadores para enfrentar con confianza las desafiantes entrevistas técnicas en las principales
-                    empresas del sector. Desde la comodidad de tu hogar, te ofrecemos un vasto conjunto de recursos y un
-                    entrenamiento meticulosamente diseñado para potenciar tus habilidades de codificación.
-                </p>
-            </div>
-        </div>
+        <h2 class="title-section">Nosotros</h2>
+       
     </section>
     <section class="section__container" id="price">
         <h2 class="title-section">Planes</h2>
-            <br><br><br>
-        <div class="price__grid">
-            <div class="price__card" data-animation-order="1">
-                <div class="price__content">
-                    <h4><strong>Free</strong></h4>
-                    <i class="icon-layers"></i>
-                    <br><br>
-                    <p>Este plan es una prueba gratuita por tarjeta de crédito usada, cuenta con diversas funciones
-                        limitadasd en las cuales puedes ver una prueba del servicio que brinda GetWork y decicidir si
-                        adquirr algún plan Premium.</p>
-                    <hr />
-                    <h4>Gratuito</h4>
-                    <p>Acceso limitado a preguntas frecuentes de entrevistas seleccionadas</p>
-                    <p>Ejercicios de codificación básicos</p>
-                    <p>Tutoriales introductorios sobre temas comunes de entrevistas</p>
-                </div>
-                <a href="/src/login.html" class="btn">Empezar</a>
-            </div>
-            <div class="price__card" data-animation-order="1">
-                <div class="price__content">
-                    <h4>Plan Estudiante</h4>
-                    <i class="icon-bulb"></i>
-                    <br><br>
-                    <p>Con este plan de suscripción mensual, los estudiantes tendrán acceso a recursos básicos de
-                        preparación para entrevistas técnicas durante un mes.</p>
-                    <hr />
-                    <h4>S/.35.00</h4>
-                    <p>Acceso completo a preguntas frecuentes de entrevistas</p>
-                    <p>Ejercicios de codificación práctica ilimitados</p>
-                    <p>Simulacros de entrevistas en vivo con expertos</p>
-                    <p>Tutoriales detallados sobre temas comunes de entrevistas</p>
-                    <p>Contenido exclusivo de empresas de tecnología</p>
-                </div>
-                <a href="/src/login.html" class="btn">Suscribirme</a>
-            </div>
-            <div class="price__card" data-animation-order="1">
-                <div class="price__content">
-                    <h4>Plan Desarrollador</h4>
-                    <i class="icon-chemistry"></i>
-                    <br><br>
-                    <p>Este plan está dirigido a desarrolladores profesionales que desean mejorar sus habilidades y
-                        prepararse para entrevistas técnicas en empresas de tecnología. Obtén acceso a recursos
-                        avanzados y sesiones de tutoría personalizada.</p>
-                    <hr />
-                    <h4>S/.69.90</h4>
-                    <p>Acceso completo a todas las preguntas frecuentes de entrevistas</p>
-                    <p>Ejercicios de codificación práctica avanzada</p>
-                    <p>Sesiones de tutoría personalizada con expertos</p>
-                    <p>Simulacros de entrevistas en vivo con reclutadores</p>
-                    <p>Contenido exclusivo de empresas de tecnología</p>
-                    <p>Garantía de devolución de dinero</p>
-                </div>
-                <a href="/src/login.html" class="btn">Suscribirme</a>
-            </div>
-        </div>
+        <br><br><br>
+        
     </section>
 
     <section class="contact" id="contact">
         <h2 class="title-section">Contáctanos</h2>
-            <br><br><br>
+        <br><br><br>
         <div class="contact-container">
             <form id="contact-form" action="procesar_formulario.php" method="post">
                 <div class="form-group">

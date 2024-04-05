@@ -142,15 +142,6 @@ header label{
     color: var(--primary-pink);
 }
 
-.box-group{
-    display: flex;
-    justify-content:center;
-}
-.text-about{
-    font-size: 130%;
-    width: 60%;
-    text-align: justify;
-}
 .contact-container {
     width: 80%;
     text-align: center;
